@@ -1,7 +1,7 @@
 
 fn main() {
     round_up();
-    // round_down();
+    round_down();
 }
 
 fn round_up() {
@@ -31,14 +31,14 @@ if y.is_sign_negative() {
 }
 
 
-// fn round_down() {
-//     let n = 0.5_f64;
-// let y = n.floor();
-// println!("The floor of {} is {}", n, y);
-// if y.is_sign_negative() {
-//     println!("The result is negative"); 
-// } else {
-//     println!("The result is positive");
-// }
+fn round_down() {
+    let n = 0.5_f64;
+let y = n.floor();
+println!("The floor of {} is {}", n, y);
+if y.is_sign_negative() {
+    println!("The result is negative"); 
+} else {
+    println!("The result is positive");
+}
 
 }

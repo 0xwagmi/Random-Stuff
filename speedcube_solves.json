@@ -1,0 +1,98 @@
+[
+  {
+    "time": 20.833028078079224,
+    "raw_time": 20.833028078079224,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "L2 U2 B' D' U2 L2 D2 B' R B' D U' R' U2 R' D F' L2 D B'",
+    "timestamp": "2026-01-14T10:14:51.873025"
+  },
+  {
+    "time": 26.291355848312378,
+    "raw_time": 26.291355848312378,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "U B2 F D' U' B2 L B D' R2 B D B2 F' L' F2 B2 L D R",
+    "timestamp": "2026-01-14T10:16:54.520735"
+  },
+  {
+    "time": 25.475285530090332,
+    "raw_time": 25.475285530090332,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "D B2 R2 B' L R D2 B' R2 B2 D' F2 D2 L2 R U D2 U' R' B",
+    "timestamp": "2026-01-14T10:18:11.833381"
+  },
+  {
+    "time": 23.121315240859985,
+    "raw_time": 23.121315240859985,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "L2 R2 L' D2 U2 L' B' L2 R D U D2 U2 R L2 U2 D B' D' B'",
+    "timestamp": "2026-01-14T10:19:06.749776"
+  },
+  {
+    "time": 28.429430723190308,
+    "raw_time": 28.429430723190308,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "D F2 L2 D2 F R2 B F' L U' R D' B2 U2 D' U2 R D' R2 L'",
+    "timestamp": "2026-01-14T10:21:33.449629"
+  },
+  {
+    "time": 24.69961380958557,
+    "raw_time": 24.69961380958557,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "U2 L B2 L2 B2 L B' D' R F' D R' U' B' R2 U' F2 L2 U' B'",
+    "timestamp": "2026-01-14T10:22:22.123217"
+  },
+  {
+    "time": 19.653592348098755,
+    "raw_time": 19.653592348098755,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "L2 U' R' F D2 R' D2 R D' F2 L' R L2 F U R F D B' U'",
+    "timestamp": "2026-01-14T10:23:31.224221"
+  },
+  {
+    "time": 20.595062971115112,
+    "raw_time": 20.595062971115112,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "B' R D2 L2 U F2 L2 R' F2 U D2 F' U2 L R U' B L2 B2 R2",
+    "timestamp": "2026-01-14T10:24:17.067339"
+  },
+  {
+    "time": 25.168148517608643,
+    "raw_time": 25.168148517608643,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "U2 L' D' U2 R' F2 U' L' U2 B D' R D' U L2 B U2 L2 U' F",
+    "timestamp": "2026-01-14T10:25:08.522187"
+  },
+  {
+    "time": 21.82976198196411,
+    "raw_time": 21.82976198196411,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "L B' R2 U B D R D2 B2 L' R' U2 B F2 U L2 D' B2 L' F'",
+    "timestamp": "2026-01-14T10:25:53.008864"
+  },
+  {
+    "time": 28.38862156867981,
+    "raw_time": 28.38862156867981,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "D2 F2 L' D R2 D' R2 B2 R2 F2 L2 U' R2 B2 F D' L U L D2",
+    "timestamp": "2026-01-14T10:27:38.066779"
+  },
+  {
+    "time": 17.95605993270874,
+    "raw_time": 17.95605993270874,
+    "dnf": false,
+    "plus_two": false,
+    "scramble": "L D' U B' R2 D F' U' R' B2 F' L' D' U2 F L2 U' F D' L'",
+    "timestamp": "2026-01-14T10:28:31.137319"
+  }
+]

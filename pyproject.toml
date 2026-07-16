@@ -29,7 +29,7 @@ Repository = "https://github.com/0xwagmi/claudetop"
 Issues = "https://github.com/0xwagmi/claudetop/issues"
 
 [project.scripts]
-ctop = "app:main"
+claudetop = "app:main"
 
 [build-system]
 requires = ["hatchling"]

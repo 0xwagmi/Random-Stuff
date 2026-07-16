@@ -38,12 +38,12 @@ pipx install git+https://github.com/0xwagmi/claudetop
 pip install git+https://github.com/0xwagmi/claudetop
 ```
 
-Any of these put a `ctop` command on your `PATH`.
+Any of these put a `claudetop` command on your `PATH`.
 
 ## Usage
 
 ```sh
-ctop
+claudetop
 ```
 
 - Top pane lists currently running `claude` processes (pid, cwd, tty, start time, command).
@@ -69,7 +69,7 @@ ctop
 git clone https://github.com/0xwagmi/claudetop
 cd claudetop
 uv sync
-uv run ctop
+uv run claudetop
 ```
 
 ## License

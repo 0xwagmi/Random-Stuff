@@ -1,6 +1,7 @@
 """claudetop — TUI to see running claude instances + saved sessions, sizes, token usage."""
 import subprocess
 
+from textual import work
 from textual.app import App, ComposeResult
 from textual.containers import Container
 from textual.screen import Screen, ModalScreen
@@ -48,10 +49,15 @@ class RunningPane(Static):
         table.add_columns("PID", "DIR", "TTY", "STARTED", "CMD")
         self.refresh_data()
 
+    @work(thread=True, exclusive=True)
     def refresh_data(self):
+        data = core.running_instances()
+        self.app.call_from_thread(self._populate, data)
+
+    def _populate(self, data):
         table = self.query_one("#running-table", DataTable)
         table.clear()
-        for r in core.running_instances():
+        for r in data:
             table.add_row(r["pid"], r["cwd"], r["tty"], r["start"], r["cmd"], key=r["pid"])
 
 
@@ -144,11 +150,16 @@ class ProjectsPane(Static):
         table.cursor_type = "row"
         self.refresh_data()
 
+    @work(thread=True, exclusive=True)
     def refresh_data(self):
+        rows = core.project_summary()
+        self.app.call_from_thread(self._populate, rows)
+
+    def _populate(self, rows):
         table = self.query_one("#projects-table", DataTable)
         table.clear()
         self.rows_by_key = {}
-        for row in core.project_summary():
+        for row in rows:
             table.add_row(
                 row["dir"],
                 str(row["n"]),
